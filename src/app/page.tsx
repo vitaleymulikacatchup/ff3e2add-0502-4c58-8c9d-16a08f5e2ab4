@@ -21,8 +21,8 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 2, textAnimation: "slide" }}>
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline 
-          brandSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logotype-w-1758886382987-0f9fb513.jpg" 
-          brandAlt="MemePulse" 
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logotype-w-1758886382987-0f9fb513.jpg" 
+          logoAlt="MemePulse" 
           navItems={navLinks} 
           buttonText="Buy MemePulse"
         />
