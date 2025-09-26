@@ -22,7 +22,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline 
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logotype-w-1758886382987-0f9fb513.jpg" 
-          logoAlt="MemePulse" 
           navItems={navLinks} 
           buttonText="Buy MemePulse"
         />
@@ -53,7 +52,6 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <GradientFooter 
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logotype-w-1758886382987-0f9fb513.jpg" 
-          logoAlt="MemePulse Logo" 
           columns={[
             { title: "Links", items: [{ label: "Home", onClick: () => { /* navigate */ } }, { label: "About", onClick: () => { /* navigate */ } }] },
             { title: "Community", items: [{ label: "Twitter", onClick: () => { /* navigate */ } }, { label: "Discord", onClick: () => { /* navigate */ } }] }
